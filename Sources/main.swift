@@ -1,7 +1,7 @@
 import Foundation
 import led
  
-class Blink {
+struct Blink {
 
     let led: LED
 
