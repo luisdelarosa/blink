@@ -8,8 +8,7 @@ class Blink {
 
     // This will work for a LED attached to GPIO pin 17 on a Raspberry Pi 3
     init() {
-        let gpios = SwiftyGPIO.GPIOs(for:.RaspberryPi3)
-        self.led = LED(gpioPin: .P17, swiftyGPIOs: gpios)
+        self.led = LED(gpioPin: .P17)
     }
 
     // Blink 3 times
