@@ -8,7 +8,7 @@ To set up:
 - Connect a red LED to ground (use the short leg)
 - Connect a 100 Ohm (or larger) resistor to the same breadboard row that has the red LED's long leg
 - Connect a wire from the Raspberry Pi's GPIO pin 17 (a GPIO breakout board, aka T-Cobbler helps a lot)
-![Fritizing diagram of Raspberry Pi with LED and resistor on breadboard](./fritzing.png)
+![Fritizing diagram of Raspberry Pi with LED and resistor on breadboard](./Fritzing/fritzing.png)
 
 Then execute at a command prompt on the Raspberry Pi:
 ```
