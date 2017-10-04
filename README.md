@@ -17,3 +17,5 @@ swift build && .build/debug/blink
 ```
 
 You should see the LED blink 3 times.
+
+Note that this relies on the Swift modules [led](https://github.com/luisdelarosa/led) and [SwiftyGPIO](https://github.com/uraimo/SwiftyGPIO).

@@ -1,5 +1,4 @@
 import Foundation
-import SwiftyGPIO
 import led
  
 class Blink {
